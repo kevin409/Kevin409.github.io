@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid red;
+            height: 100px;
+            width: 100px;
+        }
+
+        p {
+            border: solid blue;
+            /*            width: 200px;*/
+            /*            height: 200px;*/
+
+            display: inline-block;
+        }
+
+        #inline {
+            display: inline;
+            font-size: 100px;
+        }
+
+        img {
+            display: none;
+        }
+
+        #hide {
+            display: inline;
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>width cross the page</li>
+        <li>height is 0</li>
+        <li>can set width and height</li>
+        <li>doesn't allow other element sit beside block element</li>
+    </ul>
+    <div>Block</div>
+    <div>Block</div>
+    <ul>
+        <li>width is 0</li>
+        <li>height is 0</li>
+        <li>can set width and height</li>
+        <li>they can be put in a line</li>
+    </ul>
+    <p></p>
+    <p></p>
+
+    <ul>
+        <li>no width by default, but its width depends on its content</li>
+        <li>has height, but its height depends on font size</li>
+        <li>cannot set widt hand height</li>
+        <li>they can be put in a line</li>
+    </ul>
+    <div id="inline"></div>
+    <p></p>
+
+
+    <img src="https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <!--visibility-->
+
+    <img id='hide' src="https://images.pexels.com/photos/3075988/pexels-photo-3075988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <div></div>
+
+
+</body>
+
+</html>
